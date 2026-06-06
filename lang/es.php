@@ -1,0 +1,23 @@
+<?php
+return [
+    'welcome' => 'Bienvenido',
+    'scan_qr' => 'Escanear código QR',
+    'view_cart' => 'Ver carrito',
+    'loyalty_points' => 'Puntos de fidelidad',
+    'available_points' => 'Puntos disponibles',
+    'earn_points_msg' => 'Gana 1 punto por cada $10 gastados. ¡Canjea puntos por descuentos!',
+    'start_shopping' => 'Empezar a comprar',
+    'checkout' => 'Pagar',
+    'order_summary' => 'Resumen del pedido',
+    'total_items' => 'Artículos totales',
+    'subtotal' => 'Subtotal',
+    'payable_amount' => 'Cantidad a pagar',
+    'confirm_payment' => 'Confirmar pago y generar factura',
+    'points_to_redeem' => 'Puntos para canjear',
+    'apply_points' => 'Aplicar puntos',
+    'logout' => 'Cerrar sesión',
+    'dashboard' => 'Tablero',
+    'history' => 'Historial',
+    'scan' => 'Escanear',
+    'expiry_date' => 'Fecha de vencimiento',
+];

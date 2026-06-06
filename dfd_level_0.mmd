@@ -1,0 +1,24 @@
+flowchart TD
+    %% Entities
+    C((Customer))
+    A((Admin))
+    
+    %% The main system
+    System["Smart Scan Billing System (0)"]
+    
+    %% Flows from Customer
+    C -- "Login/Registration Details" --> System
+    C -- "Scanned QR Codes" --> System
+    C -- "Checkout Request & Payment" --> System
+    
+    %% Flows to Customer
+    System -- "Product Info & Cart Totals" --> C
+    System -- "Generated Invoice/Bill" --> C
+    
+    %% Flows from Admin
+    A -- "Login Credentials" --> System
+    A -- "Product Details & Updates" --> System
+    
+    %% Flows to Admin
+    System -- "Dashboard Metrics (Stock, Sales)" --> A
+    System -- "Low Stock & Expiry Alerts" --> A

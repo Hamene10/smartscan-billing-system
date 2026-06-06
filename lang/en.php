@@ -1,0 +1,23 @@
+<?php
+return [
+    'welcome' => 'Welcome',
+    'scan_qr' => 'Scan QR Code',
+    'view_cart' => 'View Cart',
+    'loyalty_points' => 'Loyalty Points',
+    'available_points' => 'Available Points',
+    'earn_points_msg' => 'Earn 1 point for every $10 spent. Redeem points for discounts!',
+    'start_shopping' => 'Start Shopping',
+    'checkout' => 'Checkout',
+    'order_summary' => 'Order Summary',
+    'total_items' => 'Total Items',
+    'subtotal' => 'Subtotal',
+    'payable_amount' => 'Payable Amount',
+    'confirm_payment' => 'Confirm Payment & Generate Bill',
+    'points_to_redeem' => 'Points to redeem',
+    'apply_points' => 'Apply Points',
+    'logout' => 'Logout',
+    'dashboard' => 'Dashboard',
+    'history' => 'History',
+    'scan' => 'Scan',
+    'expiry_date' => 'Expiry Date',
+];

@@ -1,0 +1,1 @@
+{"version":2,"defects":[],"times":{"I18nTest::testDefaultLanguageIsUsedWhenSessionNotSet":0.054,"I18nTest::testTranslationReturnsKeyWhenLanguageFileIsMissing":0.001}}
